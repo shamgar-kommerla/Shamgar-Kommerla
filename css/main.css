@@ -1,0 +1,137 @@
+body {
+
+    background: rgb(51,60,83);
+    background: linear-gradient(141deg, rgba(51,60,83,1) 0%, rgba(44,70,93,1) 19%, rgba(40,101,122,1) 76%, rgba(40,101,122,1) 96%);
+    margin: 0;
+    justify-content: center;
+
+}
+
+.main-container {
+    background-image: url(../images/001.jpg);
+    background-position-y: center;
+    height: 100vh;
+}
+
+
+/* Navigation bar */
+
+.navbar ul {
+    margin-right: 5rem;
+}
+
+.navbar ul li {
+    margin-right: 2.5rem;
+}
+
+.navbar ul li a {
+    color: white !important;
+}
+
+.navbar ul li a:hover {
+    color: #808080 !important;
+}
+
+
+.navbar-brand{
+    color: white !important;
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 1px 1px 3px white !important;
+}
+
+
+.profile-container {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2rem;
+}
+
+.profile-container a{
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 8px 20px;
+    transition-property: all;
+    transition-duration: 0.6s;
+}
+
+.profile-container a:hover{
+    background-color:white;
+    color: black;
+}
+
+.profile-container h1{
+    font-size: 4rem;   
+}
+
+.profile-container p{
+    margin-bottom: 3rem;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .profile-container {
+        top: 50%;
+        left: 50%;
+        transform: translate(-60%, -50%);
+        padding: 2rem;
+    }
+
+    .profile-container h1{
+        font-size: 3rem;   
+    }
+    
+    .profile-container p{
+        margin-bottom: 2rem;
+    }
+    .navbar-brand {
+        padding-left: 2.5rem;
+        font-size: 1.5rem;
+        font-family: 'Orbitron', sans-serif;
+    }
+    
+}
+
+
+/* **************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+
+    .profile-container {
+        top: 60%;
+        left: 58%
+    }
+
+    .profile-container a{
+        color: white;
+        border: 1.5px solid white;
+        text-decoration: none;
+        padding: 6px 18px;
+    }
+
+}
+
+

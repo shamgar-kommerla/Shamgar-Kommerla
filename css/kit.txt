@@ -1,0 +1,9 @@
+bg-color : #E6E6E6
+text-color :4D4D4D or #333333
+shadow : #666666 or #808080
+
+
+background-color:white;
+
+
+<i class="fas fa-bars"></i>

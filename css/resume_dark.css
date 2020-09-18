@@ -1,0 +1,195 @@
+body{
+    /* background-color: #E6E6E6; */
+    background-color: #3c434b;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+
+.main-container{
+    margin:1vw;
+    padding: 0.5rem;
+    box-shadow: 2px 1px 10px white;
+}
+
+.alt-nav{
+    display: none;
+}
+
+
+
+.logo-class{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.navbar ul{
+    margin-right: 5rem;
+}
+.navbar ul li{
+    margin-right: 2.5rem;
+}
+
+.navbar-brand{
+    padding-left: 3rem;
+    font-size: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+
+
+
+
+
+/* ***************PROFILE********************/
+
+.about-container{   
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding:5px 5px;
+    background-color:white;
+    transition: all 1s;
+}
+
+.about-container:hover{
+    box-shadow: 2px 1px 5px black;
+}
+
+.profile{  
+    text-align: center;
+     padding: 3px;
+     margin:3rem;
+    
+}
+
+.about{
+    padding: 0 5px ;
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    
+}
+
+.about .about-about{
+    padding-left: 2rem ;
+    border-left: 0.5rem solid #808080;
+} 
+
+.about .about-contact{
+    padding-left:2rem;
+    border-left: 0.5rem solid #808080;
+}
+
+/* ********************* */
+
+
+/* SKILLS */
+
+.skills{
+    margin: 1vw;
+    padding:1vw 4vw;
+    background-color:white;
+
+    transition: all 1s;
+}
+
+.skills:hover{  
+    box-shadow: 2px 2px 6px black;
+
+}
+
+.skills ul{
+  list-style-type: none;
+}
+
+/* EDUCATION */
+.education{
+   
+    margin: 1vw;
+  
+    padding:1vw 4vw;
+    background-color:white;
+    transition: all 1s;
+}
+
+.education:hover{
+    box-shadow: 2px 2px 6px black;
+}
+
+/* HONOURS */
+.honours{
+  
+    margin: 1vw;
+  
+    padding:1vw 4vw;
+    line-height: 2;
+    background-color:white;
+    transition: all 1s;
+}
+
+.honours:hover{
+    
+    box-shadow: 2px 2px 6px black;
+
+}
+
+/* PROJECTS */
+
+.projects{
+
+    margin: 1vw;
+    padding:1vw 4vw;
+    line-height: 2;
+    background-color:white;
+    transition: all 1s;
+}
+
+.projects:hover{
+
+    box-shadow: 2px 2px 6px black;
+}
+
+
+/* FOOTER */
+.footer{
+
+        padding:1vw 4vw;
+        text-align: center;
+       
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    margin : 0 1rem 1rem 1rem;  
+
+}
+
+
+
+@media screen and (max-width: 700px){
+    .about-container{ 
+        flex-direction: column;  
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .main-container{
+        box-shadow: none;
+    }
+
+    .navbar-brand{
+        padding-left: 2.5rem;
+        font-size: 1.5rem;
+        font-family: 'Orbitron', sans-serif;
+    }
+    
+}
+
+
