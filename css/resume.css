@@ -7,34 +7,16 @@ body {
     background: linear-gradient(141deg, rgba(47, 55, 78, 1) 0%, rgba(44, 70, 93, 1) 41%, rgba(40, 101, 122, 1) 97%);
     margin: 0;
     justify-content: center;
-    background-repeat: repeat-y;
+    /* background-repeat: repeat-y; */
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     color: #ffffff;
 }
 
 
-/* .main-container {
-    margin: 1vw;
-    padding: 0.5rem;
-    box-shadow: 2px 1px 10px white;
-} */
-/* 
-.alt-nav {
-    display: none;
-} */
-
 .logo-class {
     font-family: 'Orbitron', sans-serif;
 }
-/* 
-.navbar ul {
-    margin-right: 5rem;
-}
-
-.navbar ul li {
-    margin-right: 2.5rem;
-} */
 
 .navbar ul li a {
     color: white !important;
@@ -53,22 +35,13 @@ body {
     text-shadow: 1px 1px 3px white;
 }
 
-
-
-
-
-
-
-
 /* ***************PROFILE********************/
-
 .about-container {
     opacity: 0.7;
     display: flex;
     justify-content: center;
     margin: 1vw;
     padding: 5px 5px;
-    /* background-color:white; */
     transition: all 1s;
 }
 
@@ -105,39 +78,11 @@ body {
 
 /* ********************* */
 
-
 /* SKILLS */
-
-.skills {
-    opacity: 0.7;
-    margin: 1vw;
-    padding: 1vw 4vw;
-
-    transition: all 1s;
-}
-
-.skills:hover {
-    box-shadow: 2px 2px 6px white;
-
-}
-
 .skills ul {
     list-style-type: none;
 }
-
 /* EDUCATION */
-.education {
-    opacity: 0.7;
-    margin: 1vw;
-
-    padding: 1vw 4vw;
-
-    transition: all 1s;
-}
-
-.education:hover {
-    box-shadow: 2px 2px 6px white;
-}
 
 /* HONOURS */
 .honours {
@@ -150,35 +95,12 @@ body {
     transition: all 1s;
 }
 
-.honours:hover {
-
-    box-shadow: 2px 2px 6px white;
-
-}
-
-/* PROJECTS */
-
-.projects {
-    opacity: 0.7;
-    margin: 1vw;
-    padding: 1vw 4vw;
-    line-height: 2;
-
-    transition: all 1s;
-}
-
-.projects:hover {
-
-    box-shadow: 2px 2px 6px white;
-}
 
 
 /* FOOTER */
 .footer {
-
     padding: 1vw 4vw;
     text-align: center;
-
 }
 
 .footer a {
@@ -187,8 +109,16 @@ body {
     margin: 0 1rem 1rem 1rem;
 }
 
+.def-prop {
+    opacity: 0.7;
+    margin: 1vw;
+    padding: 1vw 4vw;
+    transition: all 1s;
+}
+.def-prop:hover {
 
-
+    box-shadow: 2px 2px 6px white;
+}
 
 @media screen and (max-width: 700px) {
     .about-container {
